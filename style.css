@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(131, 240, 131);
+    margin: 7%;
+    margin-left: 15%;
+}
+
+#taskInput{
+    width: 30%;
+    margin-bottom: 10px;
+    background-color: rgba(5, 233, 127, 0.651);
+    padding: 6px;
+    border: solid 3px white;
+    border-radius: 10px;
+    color: aliceblue;
+    font-family: "Madimi One", sans-serif;
+}
+
+#taskList{
+    list-style-type: none;
+    padding: 0;
+}
+
+.taskItem{
+    margin-bottom: 5px;
+
+}
+
+.taskItem button{
+    margin-left: 5px;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    margin-left: 55%;
+    margin-top: -15%;
+}
+
+button{
+    padding: 6px;
+    background-color: rgba(5, 233, 127, 0.651);
+    border: solid 3px white;
+    border-radius: 10px;
+    font-family: "Madimi One", sans-serif;
+    color: white;
+}
+
+h1{
+    font-family: "Madimi One", sans-serif;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 45px;
+}
